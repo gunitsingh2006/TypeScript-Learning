@@ -1,0 +1,23 @@
+npm install -g typescript -> in windows 
+sudo install -g typescript -> in mac
+
+
+tsc -v -> to check the version 
+
+
+
+tsconfig.json     (this file should be included so thst the run work)
+
+[
+    {
+    "compilerOptions": {
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "target": "ESNext",
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true
+    }
+  }
+  
+]
