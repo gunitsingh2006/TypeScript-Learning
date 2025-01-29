@@ -1,7 +1,7 @@
 let loginUser = (name: string, email: string , rollno: number , feesIsPaid : boolean = false )=>{
 return name = "gunit"
-return email ="gunit.com"
-return rollno = 33
+// return email ="gunit.com"
+// return rollno = 33
 // return feesIsPaid = false
 }
 let addTwo = (num: number, getUpper: string) => {
