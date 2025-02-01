@@ -29,3 +29,17 @@ function getDbId(id:number | string){
     id.toLowerCase
    }
 } 
+
+
+// arrays 
+
+const data: number[]=[1,2,3]
+const data2: string[]=["1","2","3"]
+const data3: (string | number | boolean)[]=["1", 2 , true]   // good way
+const data4: any[]=["1", 2 , true]                           // bad way
+
+
+let seatAllotment: "aisle"|"middle"|"window"
+
+seatAllotment="window"
+// seatAllotment="crue"       // not vaild \
