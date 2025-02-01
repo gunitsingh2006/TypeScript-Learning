@@ -8,7 +8,7 @@ tsc -v -> to check the version
 
 tsconfig.json     (this file should be included so thst the run work)
 
-[
+
     {
     "compilerOptions": {
       "forceConsistentCasingInFileNames": true,
@@ -20,4 +20,3 @@ tsconfig.json     (this file should be included so thst the run work)
     }
   }
   
-]
