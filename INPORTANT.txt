@@ -5,6 +5,14 @@ sudo install -g typescript -> in mac
 tsc -v -> to check the version 
 
 
+tsc --init        // to install tsconfig.json 
+
+
+npm init -y        //to install package.json 
+
+mkdir src
+mkdir dist
+
 
 tsconfig.json     (this file should be included so thst the run work)
 
