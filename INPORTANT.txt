@@ -8,6 +8,9 @@ tsc -v -> to check the version
 tsc --init        // to install tsconfig.json 
 
 
+tsc -w                          {watch mode}
+Starting compilation in watch mode...
+
 npm init -y        //to install package.json 
 
 mkdir src
