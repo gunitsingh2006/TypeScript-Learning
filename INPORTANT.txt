@@ -30,4 +30,8 @@ tsconfig.json     (this file should be included so thst the run work)
       "skipLibCheck": true
     }
   }
+
+
+if u decleared a function employ and gives the id and name type but you dont use the name 
+in that case put a {name?} insted of {name} by this the name becomes undefined type and code can run without give name a value
   
